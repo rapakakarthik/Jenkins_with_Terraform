@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "main" {
   ami = "ami-05c3dc660cb6907f0"
-  instance_type = "t2.micro"
+  instance_type = "t2.medium"
   key_name = "docker"
 
   tags = {
